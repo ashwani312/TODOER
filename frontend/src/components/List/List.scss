@@ -1,0 +1,72 @@
+.List {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .Listtop {
+        display: flex;
+        gap: 30px;
+
+        .selectall {
+            display: flex;
+            gap: 10px;
+        }
+
+        .filterlist {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            span{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+        }
+    }
+
+    .ListBottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+
+        .mytodolist {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+
+            .mytodolistleft {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                img{
+                    cursor: pointer;
+                    height: 20px;
+                }
+                label{
+                    font-size: 20px;
+                }
+            }
+
+            .mytodolistright {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .actionicons {
+                    display: flex;
+                    gap: 5px;
+
+                    img {
+                        cursor: pointer;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

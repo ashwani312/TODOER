@@ -1,0 +1,38 @@
+.Navbar{
+    height: 60px;
+    display: flex;
+    background-color: crimson;
+    width: inherit;
+    align-items: center;
+    justify-content: space-around;
+    .left {
+      img{
+        cursor: pointer;
+        height: 40px;
+      }
+    }
+    .center {
+        cursor: pointer;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      color: white;
+      img{
+        height: 50px;
+      }
+    }
+    .right {
+        display: flex;
+        gap: 10px;
+      button{
+        cursor: pointer;
+        padding: 4px 15px;
+        border: none;
+        border-radius: 6px;
+        font-size: 18px;
+        color: white;
+        background-color: purple;
+
+      }
+    }
+}

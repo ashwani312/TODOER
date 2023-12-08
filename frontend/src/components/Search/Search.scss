@@ -1,0 +1,31 @@
+.Search {
+    width: 300px;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    img{
+        cursor: pointer;
+        height: 20px;
+    }
+
+    input {
+        height: inherit;
+        outline: none;
+        border: none;
+        background: white;
+        width: inherit;
+        font-size: 20px;
+        color: black;
+
+        &::placeholder {
+            color: rgb(94, 90, 90);
+        }
+
+
+    }
+}
